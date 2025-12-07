@@ -1,0 +1,17 @@
+[package]
+name = "ziggle"
+authors = ["Glenn Wallace glennw-coding@proton.me"]
+version = "0.0.0"
+edition = "2024"
+keywords = ["tool", "zig", "rust", "template", "convenience"]
+categories = ["command-line-interface", "configuration", "development-tools"]
+license = "MIT"
+repository = "https://www.github.com/Stack-Syndicate/ziggle"
+
+[dependencies]
+anyhow = "1.0.100"
+colored = "3.0.0"
+inquire = "0.9.1"
+regex = "1.12.2"
+toml_edit = "0.23.9"
+unicode-icons = "2.1.2"
